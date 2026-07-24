@@ -59,6 +59,7 @@ const PRECACHE_URLS = [
   'data/expenseRepo.js',
   'data/fileRepo.js',
   'data/fureverSeedExport.js',
+  'data/googleDrive.js',
   'data/importExport.js',
   'data/license.js',
   'data/incomeView.js',
