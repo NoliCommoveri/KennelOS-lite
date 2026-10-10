@@ -6,7 +6,7 @@
 // never re-fetches a stale precached file on its own; only a CACHE_NAME change
 // (which changes these bytes, so the browser detects a new service worker,
 // installs it, and purges the old cache in `activate`) rolls it over.
-const CACHE_NAME = 'kennelos-lite-shell-v59';
+const CACHE_NAME = 'kennelos-lite-shell-v60';
 
 const PRECACHE_URLS = [
   './',
@@ -66,6 +66,7 @@ const PRECACHE_URLS = [
   'data/contactRepo.js',
   'data/contractRepo.js',
   'data/csvImport.js',
+  'data/calendarMath.js',
   'data/dateUtils.js',
   'data/db.js',
   'data/demoMode.js',
@@ -93,6 +94,9 @@ const PRECACHE_URLS = [
   'data/nudgeState.js',
   'data/ocr.js',
   'data/pairingRepo.js',
+  'data/pedigreeImport.js',
+  'data/pedigreeParse.js',
+  'data/pedigreeReader.js',
   'data/pdfBuild.js',
   'data/proPages.js',
   'data/referenceRegistry.js',
@@ -134,6 +138,8 @@ const PRECACHE_URLS = [
   'pages/board.js',
   'pages/breeding.html',
   'pages/breeding.js',
+  'pages/calendar.html',
+  'pages/calendar.js',
   'pages/dashboard.html',
   'pages/dashboard.js',
   'pages/dog-import.html',
@@ -166,6 +172,8 @@ const PRECACHE_URLS = [
   'pages/pairings.js',
   'pages/pedigree.html',
   'pages/pedigree.js',
+  'pages/pedigree-import.html',
+  'pages/pedigree-import.js',
   'pages/reminders.html',
   'pages/reminders.js',
   'pages/roster.html',
@@ -188,6 +196,8 @@ const PRECACHE_URLS = [
   'vendor/gsi/client.js',
   'vendor/lz-string.min.mjs',
   'vendor/papaparse.min.mjs',
+  'vendor/pdfjs/pdf.min.mjs',
+  'vendor/pdfjs/pdf.worker.min.mjs',
   'vendor/tesseract/eng.traineddata.gz',
   'vendor/tesseract/tesseract-core-simd-lstm.wasm.js',
   'vendor/tesseract/tesseract.esm.min.js',
