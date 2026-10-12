@@ -6,7 +6,7 @@
 // never re-fetches a stale precached file on its own; only a CACHE_NAME change
 // (which changes these bytes, so the browser detects a new service worker,
 // installs it, and purges the old cache in `activate`) rolls it over.
-const CACHE_NAME = 'kennelos-lite-shell-v73';
+const CACHE_NAME = 'kennelos-lite-shell-v74';
 
 const PRECACHE_URLS = [
   './',
@@ -60,6 +60,7 @@ const PRECACHE_URLS = [
   'data/cloud/cloudConfig.js',
   'data/cloud/cloudDevices.js',
   'data/cloud/cloudEntitlement.js',
+  'data/cloud/cloudIntegrations.js',
   'data/cloud/cloudVault.js',
   'data/cloud/cloudWaitlist.js',
   'data/cloud/vaultCrypto.js',
@@ -93,6 +94,8 @@ const PRECACHE_URLS = [
   'data/importExport.js',
   'data/license.js',
   'data/incomeView.js',
+  'data/integrationApply.js',
+  'data/integrationEvents.js',
   'data/jotformApi.js',
   'data/jotformConnect.js',
   'data/jotformKeyStore.js',
@@ -134,12 +137,17 @@ const PRECACHE_URLS = [
   'data/settings.js',
   'data/syncApply.js',
   'data/studServiceRepo.js',
+  'data/stripeApi.js',
+  'data/stripeKeyStore.js',
+  'data/stripeLinks.js',
   'data/syncRegistry.js',
   'data/vocab.js',
   'data/waitlistActions.js',
   'data/waitlistCrypto.js',
   'data/waitlistEntryRepo.js',
   'data/waitlistEvents.js',
+  'data/waitlistFeeLinks.js',
+  'data/waitlistFeePay.js',
   'data/waitlistForm.js',
   'data/waitlistInbox.js',
   'data/waitlistEmails.js',
