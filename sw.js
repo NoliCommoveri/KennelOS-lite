@@ -6,7 +6,7 @@
 // never re-fetches a stale precached file on its own; only a CACHE_NAME change
 // (which changes these bytes, so the browser detects a new service worker,
 // installs it, and purges the old cache in `activate`) rolls it over.
-const CACHE_NAME = 'kennelos-lite-shell-v177';
+const CACHE_NAME = 'kennelos-lite-shell-v178';
 
 const PRECACHE_URLS = [
   './',
@@ -132,6 +132,7 @@ const PRECACHE_URLS = [
   'data/documentRepo.js',
   'data/dogRepo.js',
   'data/dogTitles.js',
+  'data/collarColor.js',
   'data/registryCountries.js',
   'data/dropbox.js',
   'data/editionConfig.js',
