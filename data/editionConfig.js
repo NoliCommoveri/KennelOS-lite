@@ -192,6 +192,12 @@ export const editionFlags = {
   // to another breeder's KennelOS, and add or update them from one. Pro only: Lite's dog
   // cap would make a bulk add half-fail, and Demo can't write.
   dogCards: false,
+  // Families choosing how to pay (Payment Methods plan §2): Pro only. Lite keeps
+  // her payment instructions as text.
+  payMethods: false,
+  // Covering payment costs (Payment Methods plan §5): Pro only (D20). Lite keeps one
+  // price per sale.
+  costCover: false,
 };
 
 // --- Navigation (Lite — reduced) -------------------------------------------
